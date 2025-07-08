@@ -9,46 +9,72 @@ module.exports = {
     extend: {
       // Sistema de colores profesional y académico
       colors: {
-        // Paleta principal - Azul académico
+        // Paleta principal - Azul moderno y profesional
         primary: {
-          50: '#f0f9ff',   // Fondo más claro
-          100: '#e0f2fe',  // Fondo claro
-          200: '#bae6fd',  // Bordes suaves
-          300: '#7dd3fc',  // Elementos interactivos
-          400: '#38bdf8',  // Acentos secundarios
-          500: '#0ea5e9',  // Acentos principales
-          600: '#0284c7',  // Enlaces
-          700: '#0369a1',  // Texto secundario
-          800: '#075985',  // Texto principal
-          900: '#0c4a6e',  // Títulos
-          950: '#082f49',  // Máximo contraste
+          50: '#f0f7ff',   // Fondo más claro
+          100: '#e0f0ff',  // Fondo claro
+          200: '#bae0ff',  // Bordes suaves
+          300: '#7cc5ff',  // Elementos interactivos
+          400: '#36a9ff',  // Acentos secundarios
+          500: '#0088ff',  // Acentos principales
+          600: '#0066cc',  // Enlaces
+          700: '#004c99',  // Texto secundario
+          800: '#003366',  // Texto principal
+          900: '#002244',  // Títulos
+          950: '#001122',  // Máximo contraste
         },
-        // Paleta secundaria - Gris neutro
+        // Paleta secundaria - Gris moderno
         neutral: {
-          50: '#f8fafc',   // Fondo alternativo
-          100: '#f1f5f9',  // Bordes
-          200: '#e2e8f0',  // Separadores
-          300: '#cbd5e1',  // Elementos deshabilitados
-          400: '#94a3b8',  // Texto secundario
-          500: '#64748b',  // Texto principal
-          600: '#475569',  // Títulos secundarios
-          700: '#334155',  // Títulos principales
-          800: '#1e293b',  // Énfasis
-          900: '#0f172a',  // Máximo contraste
-          950: '#020617',  // Máximo contraste
+          50: '#fafafa',   // Fondo alternativo
+          100: '#f5f5f5',  // Bordes
+          200: '#e5e5e5',  // Separadores
+          300: '#d4d4d4',  // Elementos deshabilitados
+          400: '#a3a3a3',  // Texto secundario
+          500: '#737373',  // Texto principal
+          600: '#525252',  // Títulos secundarios
+          700: '#404040',  // Títulos principales
+          800: '#262626',  // Énfasis
+          900: '#171717',  // Máximo contraste
+          950: '#0a0a0a',  // Máximo contraste
         },
-        // Paleta de acentos - Verde académico
+        // Paleta de acentos - Verde moderno
         accent: {
-          50: '#f0fdf4',   // Fondo destacado
-          100: '#dcfce7',  // Elementos interactivos
-          200: '#bbf7d0',  // Bordes destacados
-          300: '#86efac',  // Acentos suaves
-          400: '#4ade80',  // Acentos medios
+          50: '#f0fdf6',   // Fondo destacado
+          100: '#dcfce9',  // Elementos interactivos
+          200: '#bbf7d6',  // Bordes destacados
+          300: '#86efb8',  // Acentos suaves
+          400: '#4ade8c',  // Acentos medios
           500: '#22c55e',  // Acentos principales
           600: '#16a34a',  // Enlaces destacados
           700: '#15803d',  // Texto destacado
           800: '#166534',  // Énfasis
           900: '#14532d',  // Máximo contraste
+        },
+        // Paleta de éxito - Verde profesional
+        success: {
+          50: '#f0fdf4',
+          100: '#dcfce7',
+          200: '#bbf7d0',
+          300: '#86efac',
+          400: '#4ade80',
+          500: '#22c55e',
+          600: '#16a34a',
+          700: '#15803d',
+          800: '#166534',
+          900: '#14532d',
+        },
+        // Paleta de advertencia - Naranja profesional
+        warning: {
+          50: '#fff7ed',
+          100: '#ffedd5',
+          200: '#fed7aa',
+          300: '#fdba74',
+          400: '#fb923c',
+          500: '#f97316',
+          600: '#ea580c',
+          700: '#c2410c',
+          800: '#9a3412',
+          900: '#7c2d12',
         },
       },
       // Sistema tipográfico profesional
@@ -190,6 +216,9 @@ module.exports = {
             },
           },
         },
+      },
+      backgroundImage: {
+        'grid-white': "url(\"data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M0 0h20v20H0V0zm1 1h18v18H1V1z'/%3E%3C/g%3E%3C/svg%3E\")",
       },
     },
   },

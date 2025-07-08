@@ -1,4 +1,4 @@
-import { FiDownload, FiMail, FiMapPin, FiGlobe } from 'react-icons/fi'
+import { FiDownload, FiMail, FiMapPin, FiGlobe, FiGithub } from 'react-icons/fi'
 import { SiLinkedin, SiGooglescholar, SiOrcid } from 'react-icons/si'
 
 // Template for CV sections - replace with actual data
@@ -15,7 +15,7 @@ const cvSections = {
   experience: [
     {
       role: "Research Assistant",
-      institution: "CiTIUS Research Center, USC",
+      institution: "CiTIUS - Centro Singular de Investigación en Tecnoloxías Intelixentes da USC",
       period: "2021 - Present",
       details: "Developing interpretable deep learning models for remote sensing applications"
     },
@@ -65,14 +65,14 @@ export default function CV() {
           <div className="space-y-4">
             <div className="flex items-center">
               <FiMail className="text-primary-600 mr-3" />
-              <a href="mailto:your.email@usc.es" className="text-neutral-600 hover:text-primary-600">
-                your.email@usc.es
+              <a href="mailto:victorxesus.barreiro.dominguez@usc.es" className="text-neutral-600 hover:text-primary-600">
+                victorxesus.barreiro.dominguez@usc.es
               </a>
             </div>
             <div className="flex items-center">
               <FiMapPin className="text-primary-600 mr-3" />
               <span className="text-neutral-600">
-                CITIUS Research Center<br />
+                CiTIUS - Centro Singular de Investigación en Tecnoloxías Intelixentes da USC<br />
                 University of Santiago de Compostela<br />
                 Santiago de Compostela, Spain
               </span>
@@ -80,31 +80,20 @@ export default function CV() {
           </div>
           <div className="space-y-4">
             <div className="flex items-center">
-              <SiLinkedin className="text-primary-600 mr-3" />
+              <FiGithub className="text-primary-600 mr-3" />
               <a
-                href="https://linkedin.com/in/your-profile"
+                href="https://github.com/victorbarreiro"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-600 hover:text-primary-600"
               >
-                LinkedIn Profile
-              </a>
-            </div>
-            <div className="flex items-center">
-              <SiGooglescholar className="text-primary-600 mr-3" />
-              <a
-                href="https://scholar.google.com/citations?user=YOUR_ID"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-neutral-600 hover:text-primary-600"
-              >
-                Google Scholar
+                GitHub Profile
               </a>
             </div>
             <div className="flex items-center">
               <SiOrcid className="text-primary-600 mr-3" />
               <a
-                href="https://orcid.org/YOUR_ORCID_ID"
+                href="https://orcid.org/0009-0008-2167-2005"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-600 hover:text-primary-600"
